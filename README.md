@@ -1,34 +1,40 @@
 # Recipe-Insights-Sentiment-Analysis-Python
 
-This project explores recipe and review data to uncover trends in cooking patterns and user sentiment. Using Python for data analysis and a Hugging Face transformer model for sentiment classification, we draw insights from both the recipes and the text of user reviews.
+I worked on this project to explore **recipe and review data** and uncover patterns in cooking trends, popular ingredients, and how users feel about the recipes they try.  
+It’s a mix of **data analysis** and **NLP-based sentiment classification** using a Hugging Face transformer model.
 
----
 
-## 🔍 What this project covers
+## 📖 Project Overview
+I wanted to understand:
+- Which recipe categories and ingredients are the most popular  
+- How cooking times vary across recipes  
+- How well review sentiment aligns with actual star ratings  
 
-- 🧾 Analysis of recipe data: ingredients, categories, cooking time, and ratings
-- 💬 Sentiment analysis of user reviews using a pre-trained NLP model
-- 📈 Visualizations to highlight popular ingredients, categories, and recipe ratings
-- 📊 Comparison of user ratings with inferred sentiment from review text
+To do this, I:
+1. Cleaned and preprocessed the dataset  
+2. Performed exploratory data analysis (EDA)  
+3. Used a Hugging Face `transformers` model for sentiment analysis  
+4. Compared predicted sentiments with given star ratings  
 
----
+
+## 📂 Dataset
+- **Original Source:** [Food.com Recipes & Reviews](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews)  
+- **My Cleaned Dataset:** [Recipe Data (Kaggle Notebook)](https://www.kaggle.com/code/praneetharao/recipe-data)  
+
 
 ## ⚙️ Tools & Libraries
 
-- **Python**: pandas, matplotlib, tqdm
+- **Python**: `pandas`, `matplotlib`, `tqdm`  
 - **NLP**: Hugging Face `transformers`, `distilbert-base-uncased-finetuned-sst-2-english`
-- **Data Source**: Recipe and review dataset with metadata like ratings, ingredients, and instructions
 
----
 
-## 📊 Key Highlights
+## 📊 Results
+### 🍽 Recipe Trends
+- Dessert recipes came out as the most common  
+- Most frequent ingredients: `salt`, `sugar`, `butter`, `onion`  
+- Highly rated recipes often had **10+ reviews**  
 
-### 🥘 Recipe Trends
-- Most frequent category: `Dessert`
-- Common ingredients: `salt`, `sugar`, `butter`, `onion`
-- High-rated recipes usually have at least 10+ reviews
-
-### 💡 Sentiment Insights
-- Used Hugging Face sentiment pipeline on 500+ user reviews
-- Added `sentiment_label` and `sentiment_score` for each review
-- Found strong alignment between review sentiment and star ratings
+### 💬 Sentiment Insights
+- Analyzed **500+ reviews** for sentiment  
+- Added `sentiment_label` and `sentiment_score` columns  
+- Found strong alignment between review sentiment and star ratings  
