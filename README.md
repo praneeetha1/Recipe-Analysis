@@ -1,20 +1,14 @@
 # Recipe-Insights-Sentiment-Analysis-Python
 
-I worked on this project to explore **recipe and review data** and uncover patterns in cooking trends, popular ingredients, and how users feel about the recipes they try.  
-It’s a mix of **data analysis** and **NLP-based sentiment classification** using a Hugging Face transformer model.
+I worked on this project to explore **recipe and review data** to uncover patterns in cooking trends, popular ingredients, and user ratings.  
+
 
 
 ## 📖 Project Overview
-I wanted to understand:
-- Which recipe categories and ingredients are the most popular  
-- How cooking times vary across recipes  
-- How well review sentiment aligns with actual star ratings  
-
-To do this, I:
-1. Cleaned and preprocessed the dataset  
-2. Performed exploratory data analysis (EDA)  
-3. Used a Hugging Face `transformers` model for sentiment analysis  
-4. Compared predicted sentiments with given star ratings  
+- Cleaned & transformed raw recipe and review data.  
+- Classified missing categories using **Zero-Shot Classification (BART)**.  
+- Performed **EDA**: category distribution, calorie trends, ingredient frequency.  
+- Visualised patterns like review timelines and ratings vs. cook time.  
 
 
 ## 📂 Dataset
@@ -22,19 +16,38 @@ To do this, I:
 - **My Cleaned Dataset:** [Recipe Data (Kaggle Notebook)](https://www.kaggle.com/code/praneetharao/recipe-data)  
 
 
-## ⚙️ Tools & Libraries
 
-- **Python**: `pandas`, `matplotlib`, `tqdm`  
-- **NLP**: Hugging Face `transformers`, `distilbert-base-uncased-finetuned-sst-2-english`
+## 🔑 Features  
+✔ Cleaned and structured data (removed R-style vectors, formatted times).  
+✔ Grouped 311 categories → **17 major categories**.  
+✔ Predicted missing categories with HuggingFace **BART model**.  
+✔ Visualised:  
+  - Recipe distribution by category  
+  - Average calories by category  
+  - Cook time vs. rating  
+  - Ingredient frequency (Bar & Word Cloud)  
+✔ Identified top contributors and interesting recipes.
 
 
-## 📊 Results
-### 🍽 Recipe Trends
-- Dessert recipes came out as the most common  
-- Most frequent ingredients: `salt`, `sugar`, `butter`, `onion`  
-- Highly rated recipes often had **10+ reviews**  
+## 🛠 Tech Stack  
+- **Python**: Pandas, NumPy  
+- **Visualization**: Matplotlib, WordCloud  
+- **NLP**: HuggingFace `transformers` (BART)  
 
-### 💬 Sentiment Insights
-- Analyzed **500+ reviews** for sentiment  
-- Added `sentiment_label` and `sentiment_score` columns  
-- Found strong alignment between review sentiment and star ratings  
+
+## 📊 Results## 📊 Results  
+
+### 🔹 Top Ingredients  
+Most frequent: `salt`, `sugar`, `butter`, `onion`.  
+
+### 🔹 Distribution of Recipes by Category  
+*Add image or chart here (e.g., Bar Chart)*  
+
+### 🔹 Average Calories by Category  
+*Add chart here*  
+
+### 🔹 Cook Time vs Rating Correlation  
+*Add scatterplot or heatmap*  
+
+### 🔹 Ingredient Frequency (Word Cloud)  
+*Add Word Cloud image*  
