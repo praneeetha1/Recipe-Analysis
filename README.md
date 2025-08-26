@@ -1,4 +1,4 @@
-# Recipe-Insights-Sentiment-Analysis-Python
+# Recipe Analysis | Python
 
 I worked on this project to explore **recipe and review data** to uncover patterns in cooking trends, popular ingredients, and user ratings.  
 
@@ -30,24 +30,39 @@ I worked on this project to explore **recipe and review data** to uncover patter
 
 
 ## 🛠 Tech Stack  
-- **Python**: Pandas, NumPy  
-- **Visualization**: Matplotlib, WordCloud  
-- **NLP**: HuggingFace `transformers` (BART)  
+- **Python:** Pandas, NumPy
+- **Visualization:** Matplotlib, WordCloud
+- **NLP:** HuggingFace Transformers (BART)
+- 
 
-
-## 📊 Results## 📊 Results  
+## 📊 Results
 
 ### 🔹 Top Ingredients  
-Most frequent: `salt`, `sugar`, `butter`, `onion`.  
+Most frequent ingredients found across recipes are:
+
+- **Salt**
+- **Sugar**
+- **Butter**
+- **Onion**
 
 ### 🔹 Distribution of Recipes by Category  
-*Add image or chart here (e.g., Bar Chart)*  
+A pie chart shows the distribution of recipes, with top categories like Meal, Dessert, and Meat leading.
+
+*Insert Pie Chart Image here*
 
 ### 🔹 Average Calories by Category  
-*Add chart here*  
+Pie recipes have the highest average calories (~740.5), followed by Bread (~668.6) and Dessert (~616.9).
+
+*Insert Bar Chart here*
 
 ### 🔹 Cook Time vs Rating Correlation  
-*Add scatterplot or heatmap*  
+Scatterplots show no strong relationship between total cook time and average rating across recipes.
+
+*Insert Scatterplot Image here*
 
 ### 🔹 Ingredient Frequency (Word Cloud)  
-*Add Word Cloud image*  
+The top ingredients by usage count include salt, butter, sugar, onion, and water.
+
+A Word Cloud visualisation highlights the most common ingredients aesthetically.
+
+*Insert Word Cloud Image here*
