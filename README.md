@@ -43,15 +43,18 @@ The top ingredients by usage count include salt, butter, sugar, onion, and water
 
 ![Word Cloud of Most Common Ingredients](extracted_images/image_8.png)
 
+
 ### 🔹 Distribution of Recipes by Category  
 A pie chart shows the distribution of recipes, with top categories like Meal, Dessert, and Meat leading.
 
 ![Recipe Distribution by Category](extracted_images/image_3.png)
 
+
 ### 🔹 Average Calories by Category  
 Pie recipes have the highest average calories (~740.5), followed by Bread (~668.6) and Dessert (~616.9).
 
 ![Average Calories per Recipe Category](extracted_images/image_4.png)
+
 
 ### 🔹 Reviews Over Time  
 The number of reviews submitted peaked around 2008 and 2009 and has decreased over the years.
