@@ -26,6 +26,7 @@ I worked on this project to explore **recipe and review data** to uncover patter
   - Average calories by category  
   - Cook time vs. rating  
   - Ingredient frequency (Bar & Word Cloud)  
+  - Reviews over time  
 ✔ Identified top contributors and interesting recipes.
 
 
@@ -38,31 +39,22 @@ I worked on this project to explore **recipe and review data** to uncover patter
 ## 📊 Results
 
 ### 🔹 Top Ingredients  
-Most frequent ingredients found across recipes are:
+The top ingredients by usage count include salt, butter, sugar, onion, and water.
 
-- **Salt**
-- **Sugar**
-- **Butter**
-- **Onion**
+![Word Cloud of Most Common Ingredients](extracted_images/image_8.png)
 
 ### 🔹 Distribution of Recipes by Category  
 A pie chart shows the distribution of recipes, with top categories like Meal, Dessert, and Meat leading.
 
-![Pie Chart](extracted_images/image_4.png)
+![Recipe Distribution by Category](extracted_images/image_3.png)
 
 ### 🔹 Average Calories by Category  
 Pie recipes have the highest average calories (~740.5), followed by Bread (~668.6) and Dessert (~616.9).
 
-*Insert Bar Chart here*
+![Average Calories per Recipe Category](extracted_images/image_4.png)
 
-### 🔹 Cook Time vs Rating Correlation  
-Scatterplots show no strong relationship between total cook time and average rating across recipes.
+### 🔹 Reviews Over Time  
+The number of reviews submitted peaked around 2008 and 2009 and has decreased over the years.
 
-*Insert Scatterplot Image here*
+![Number of Reviews Over Time - Monthly](extracted_images/image_5.png)
 
-### 🔹 Ingredient Frequency (Word Cloud)  
-The top ingredients by usage count include salt, butter, sugar, onion, and water.
-
-A Word Cloud visualisation highlights the most common ingredients aesthetically.
-
-*Insert Word Cloud Image here*
