@@ -48,7 +48,7 @@ Most frequent ingredients found across recipes are:
 ### 🔹 Distribution of Recipes by Category  
 A pie chart shows the distribution of recipes, with top categories like Meal, Dessert, and Meat leading.
 
-*Insert Pie Chart Image here*
+![Pie Chart](extracted_images/image_4.png)
 
 ### 🔹 Average Calories by Category  
 Pie recipes have the highest average calories (~740.5), followed by Bread (~668.6) and Dessert (~616.9).
