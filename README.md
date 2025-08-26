@@ -2,22 +2,22 @@
 
 I worked on this project to explore **recipe and review data** to uncover patterns in cooking trends, popular ingredients, and user ratings.  
 
+You can view and run the [Google Colab notebook here](https://colab.research.google.com/drive/1e4rrjxhUY0nuePGvtWImlfDvAl0ooG1H?usp=sharing).
 
-
-## 📖 Project Overview
+## Project Overview
 - Cleaned & transformed raw recipe and review data.  
 - Classified missing categories using **Zero-Shot Classification (BART)**.  
 - Performed **EDA**: category distribution, calorie trends, ingredient frequency.  
 - Visualised patterns like review timelines and ratings vs. cook time.  
 
 
-## 📂 Dataset
+### Dataset
 - **Original Source:** [Food.com Recipes & Reviews](https://www.kaggle.com/datasets/irkaal/foodcom-recipes-and-reviews)  
 - **My Cleaned Dataset:** [Recipe Data (Kaggle Notebook)](https://www.kaggle.com/code/praneetharao/recipe-data)  
 
 
 
-## 🔑 Features  
+## Features  
 ✔ Cleaned and structured data (removed R-style vectors, formatted times).  
 ✔ Grouped 311 categories → **17 major categories**.  
 ✔ Predicted missing categories with HuggingFace **BART model**.  
@@ -30,11 +30,10 @@ I worked on this project to explore **recipe and review data** to uncover patter
 ✔ Identified top contributors and interesting recipes.
 
 
-## 🛠 Tech Stack  
+## Tech Stack  
 - **Python:** Pandas, NumPy
 - **Visualization:** Matplotlib, WordCloud
 - **NLP:** HuggingFace Transformers (BART)
-- 
 
 ## 📊 Results
 
