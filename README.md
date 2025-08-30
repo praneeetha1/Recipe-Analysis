@@ -2,7 +2,7 @@
 
 I worked on this project to explore **recipe and review data** to uncover patterns in cooking trends, popular ingredients, and user ratings.  
 
-You can view and run the [Google Colab notebook here](https://colab.research.google.com/drive/1e4rrjxhUY0nuePGvtWImlfDvAl0ooG1H?usp=sharing).
+You can view and run the [Colab notebook](https://colab.research.google.com/drive/1e4rrjxhUY0nuePGvtWImlfDvAl0ooG1H?usp=sharing).
 
 ## Project Overview
 - Cleaned & transformed raw recipe and review data.  
