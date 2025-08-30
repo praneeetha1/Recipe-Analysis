@@ -38,13 +38,12 @@ You can view and run the [Colab notebook](https://colab.research.google.com/driv
 ## 📊 Results
 
 ### 🔹 Top Ingredients  
-The top ingredients by usage count include salt, butter, sugar, onion, and water.
+Since most of the data contains recipes of desserts, the top ingredients include salt, butter, sugar, onion, and water.
 
 ![Word Cloud of Most Common Ingredients](extracted_images/image_8.png)
 
 
 ### 🔹 Distribution of Recipes by Category  
-A pie chart shows the distribution of recipes, with top categories like Meal, Dessert, and Meat leading.
 
 ![Recipe Distribution by Category](extracted_images/image_3.png)
 
